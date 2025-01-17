@@ -1,4 +1,4 @@
-# Assignment 3: Docker Compose for Multi-Container Applications
+# Assignment : Docker Compose for Multi-Container Applications
 
 ## Objective
 Learn Docker Compose to manage multi-container applications.
