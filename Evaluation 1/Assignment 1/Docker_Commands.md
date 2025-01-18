@@ -3,42 +3,42 @@
 This document includes the commands used along with descriptions and corresponding output screenshots.
 
 ## Step 1
-Command and description here (edit this section with specific details).
+Pull the nginx image from Docker Hub..
 
-![Output Screenshot 1](/mnt/data/extracted_images/page_1_img_1.png)
+![Output Screenshot 1](./page_1_img_1.png)
 
 ## Step 2
-Command and description here (edit this section with specific details).
+Run a container with the nginx image. "-p" maps the port 8080 of the host to port 80 of the container(runs in isolation). 
 
-![Output Screenshot 2](/mnt/data/extracted_images/page_1_img_2.png)
+![Output Screenshot 2](./page_1_img_2.png)
 
 ## Step 3
-Command and description here (edit this section with specific details).
+Visit the default webpage https://localhost:8080. 
 
-![Output Screenshot 3](/mnt/data/extracted_images/page_1_img_3.png)
+![Output Screenshot 3](./page_1_img_3.png)
 
 ## Step 4
-Command and description here (edit this section with specific details).
+List the running containers.
 
-![Output Screenshot 4](/mnt/data/extracted_images/page_1_img_4.png)
+![Output Screenshot 4](./page_1_img_4.png)
 
 ## Step 5
-Command and description here (edit this section with specific details).
+Stop the conatiner and then restart it. We observe that the up time is not reset.
 
-![Output Screenshot 5](/mnt/data/extracted_images/page_2_img_1.png)
+![Output Screenshot 5](./page_2_img_1.png)
 
 ## Step 6
-Command and description here (edit this section with specific details).
+The container is running.
 
-![Output Screenshot 6](/mnt/data/extracted_images/page_2_img_2.png)
+![Output Screenshot 6](./page_2_img_2.png)
 
 ## Step 7
-Command and description here (edit this section with specific details).
+The conatiner is stopped by passing the name of the conatiner as the argument.
 
-![Output Screenshot 7](/mnt/data/extracted_images/page_3_img_1.png)
+![Output Screenshot 7](./page_3_img_1.png)
 
 ## Step 8
-Command and description here (edit this section with specific details).
+Pull the hello-world image and run it. We see a message on the command line saying that we had successfully installed the docker. 
 
-![Output Screenshot 8](/mnt/data/extracted_images/page_3_img_2.png)
+![Output Screenshot 8](./page_3_img_2.png)
 
