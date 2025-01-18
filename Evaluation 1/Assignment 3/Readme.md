@@ -29,3 +29,5 @@ Submit the following:
 - `Dockerfile`
 - `docker-compose.yml`
 - A screenshot of the Flask app running in the browser.
+
+References : https://dev.to/ishankhare07/nginx-as-reverse-proxy-for-a-flask-app-using-docker-3ajg
