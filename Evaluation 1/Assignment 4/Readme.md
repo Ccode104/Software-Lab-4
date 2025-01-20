@@ -15,3 +15,5 @@ Learn how to persist data using Docker volumes.
 - Submit the commands used.
 - Provide the database schema.
 - Include screenshots verifying data persistence.
+
+## References : https://earthly.dev/blog/docker-mysql/
