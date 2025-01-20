@@ -1,4 +1,4 @@
-# Assignment 5: Docker Networking and Swarm
+# Assignment : Docker Networking and Swarm
 
 ## Objective
 Explore Docker networking and introduce Docker Swarm for container orchestration.
