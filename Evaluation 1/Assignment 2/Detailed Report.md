@@ -9,7 +9,7 @@ This report documents the process and technical requirements for creating and de
 - Docker Desktop (Windows/Mac)
 
 ### Command Line Tools
-Required Docker commands for operations:
+Some commonly used Docker commands for operations:
 ```bash
 docker ps
 docker images
