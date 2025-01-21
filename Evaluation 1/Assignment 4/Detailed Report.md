@@ -39,10 +39,10 @@ docker run --name mysql -d \
 ## Technical Considerations
 
 ### Data Persistence
-- Location: `/var/lib/mysql` 
+- Location: `/var/lib/mysql` (inside container)
 - Volume Type: Named Docker volume
-- Persistence Method: Host-mounted storage
-- Data Lifecycle: Independent of container lifecycle
+- Persistence Method: Host-mounted storage(directory on host)
+- Data Lifecycle: Independent of container lifecycle(on host)
 
 ### Container Configuration
 - Port Mapping: 3306:3306
