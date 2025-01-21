@@ -15,13 +15,13 @@ Host a custom Docker image on the Render platform, deploy a Flask backend contai
 ### 1. Build and Push Docker Image
 ```bash
 # Build the Docker image
-docker build -t your-dockerhub-username/flask-backend:v1 .
+docker build -t your-dockerhub-username/flash-backend:v1 .
 
 # Log in to Docker Hub
 docker login
 
 # Push the image to Docker Hub
-docker push your-dockerhub-username/flask-backend:v1
+docker push your-dockerhub-username/flash-backend:v1
 ```
 
 ### 2. Deploy on Render
@@ -43,29 +43,6 @@ docker push your-dockerhub-username/flask-backend:v1
   ```
   https://<your-app-name>.onrender.com
   ```
-
----
-
-## Debugging Steps
-### **Issue: Service Failed Health Check**
-- **Diagnosis**:
-  - Checked the **Logs** tab in the Render dashboard.
-  - Found the Flask app was listening on `127.0.0.1` instead of `0.0.0.0`.
-
-- **Fix**:
-  - Updated the Flask app to listen on `0.0.0.0` in `app.py`:
-    ```python
-    if __name__ == '__main__':
-        app.run(host='0.0.0.0', port=5000)
-    ```
-
-- Rebuilt and pushed the updated image:
-  ```bash
-  docker build -t your-dockerhub-username/flask-backend:v2 .
-  docker push your-dockerhub-username/flask-backend:v2
-  ```
-
-- Updated the Docker image in Render and redeployed.
 
 ---
 
