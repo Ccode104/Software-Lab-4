@@ -24,3 +24,6 @@ Submit a report including:
 - Commands used.
 - Screenshots of outputs.
 - A brief explanation of each step.
+
+## Note
+See the 'Detailed Report' for a walkthrough for the assignment.
