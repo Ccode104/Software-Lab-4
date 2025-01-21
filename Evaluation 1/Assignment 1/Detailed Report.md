@@ -1,6 +1,6 @@
 # Docker Setup and Usage Guide
 
-##Step 1: Download and Install Docker
+## Step 1: Download and Install Docker
  Visit: Docker Documentation - Get Docker and download Docker Desktop.
  After successfully installing it, run the application.
 
