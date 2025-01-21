@@ -1,6 +1,6 @@
 # Persistent Data with Docker Volumes
 
-## Executive Summary
+## Summary
 This technical report outlines the implementation strategy for containerizing MySQL databases using Docker, focusing on deployment considerations, data persistence, and practical use cases. The solution enables isolated database environments while maintaining data integrity through Docker volumes.
 
 ## Technical Architecture
@@ -39,10 +39,10 @@ docker run --name mysql -d \
 ## Technical Considerations
 
 ### Data Persistence
-- Location: `/var/lib/mysql` (inside container)
+- Location: `/var/lib/mysql` 
 - Volume Type: Named Docker volume
-- Persistence Method: Host-mounted storage(directory on host)
-- Data Lifecycle: Independent of container lifecycle(on host)
+- Persistence Method: Host-mounted storage
+- Data Lifecycle: Independent of container lifecycle
 
 ### Container Configuration
 - Port Mapping: 3306:3306
