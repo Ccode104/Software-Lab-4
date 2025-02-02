@@ -62,16 +62,10 @@ for message in consumer:
 - Start **Consumer 2** in the second terminal.
 - Start the **Producer** in the third terminal.
 
-### 5. Observe the Output
-Example Output:
-```
-Consumer 1 (Uppercase): UPDATE 1
-Consumer 2 (Lowercase): update 1
-Consumer 1 (Uppercase): UPDATE 2
-Consumer 2 (Lowercase): update 2
-...
-```
-
+### 5. Images
+![Uppercase - Consumer 1](./images/Consumer%201%20Output.png)
+![Lowercase - Consumer 2](./images/Consumer%202%20Output.png)
+![Producer Input](./images/Producer%20Input.png)
 ## Conclusion
 This assignment helps in understanding the Kafka publish-subscribe pattern, where a producer sends messages to a topic, and multiple consumers receive and process the messages independently.
 
