@@ -12,9 +12,8 @@ These were done in the Assignment 1 and 2.
 
 ## Step 1: Create Kafka Topics
 
-Set up kafka - Refer to Assignment 1
-
-# Create topics
+### Create topics
+```
 .\bin\windows\kafka-topics.bat --create --topic alerts --bootstrap-server localhost:9092
 .\bin\windows\kafka-topics.bat --create --topic logs --bootstrap-server localhost:9092
 .\bin\windows\kafka-topics.bat --create --topic metrics --bootstrap-server localhost:9092
@@ -86,7 +85,7 @@ for message in consumer:
 ```
 
 ## Step 3: Running the Setup
-1. Start Zookeeper and Kafka.
+1. Start Zookeeper and Kafka.(Assignment 1)
 2. Run the producer script to send messages.
 3. Start the respective consumers to receive filtered messages.
 
