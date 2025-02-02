@@ -6,26 +6,26 @@ Understand the basics of message brokers and set up Kafka.
 ## Tasks
 
 ### **1. Install Kafka on Your Local Machine**
-Ensure Kafka is installed and running. If not, download and install Apache Kafka from [here](https://kafka.apache.org/downloads).
+Download and install Apache Kafka from [here](https://kafka.apache.org/downloads).
 
 #### **Start Zookeeper**
 ```bash
-bin/zookeeper-server-start.sh config/zookeeper.properties
+.\bin\zookeeper-server-start.bat config\zookeeper.properties
 ```
 
 #### **Start Kafka Broker**
 ```bash
-bin/kafka-server-start.sh config/server.properties
+.\bin\kafka-server-start.bat config\server.properties
 ```
 
 #### **Create Kafka Topic**
 ```bash
-bin/kafka-topics.sh --create --topic hello_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+.\bin\kafka-topics.bat --create --topic hello_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
 
 #### **Verify the Topic**
 ```bash
-bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+.\bin\kafka-topics.bat --list --bootstrap-server localhost:9092
 ```
 
 ---
@@ -98,5 +98,4 @@ Received: Hello, World!
 
 ---
 
-Now your Kafka producer and consumer are fully functional! 🚀
 
