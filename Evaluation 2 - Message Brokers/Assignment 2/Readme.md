@@ -16,7 +16,8 @@ Here, we create a topic, have 1 producer and 2 consumers.
 ### 2. Write a Producer
 - Implement a Kafka producer that sends messages like `Update 1`, `Update 2`, etc.
 -  Producer code in Python (using `kafka-python`):
-  
+  (Note : Run pip install kafka-python in cmd to install the library.)
+
   ```python
   from kafka import KafkaProducer
   import time
