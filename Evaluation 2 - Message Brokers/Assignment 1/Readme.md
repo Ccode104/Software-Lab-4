@@ -16,6 +16,9 @@ Here are some important edits to be made (for Windows) :
     <li>Do the same for zookeeper.properties for data.dir = \tmp\zookeeper-data</li>
 </ol>
 
+Visit [Apache Kafka Quickstart](https://kafka.apache.org/quickstart).
+Note : It is given for Linux based systems. For windows, instead of .sh, we access .bat files.
+
 #### **Start Zookeeper**
 ```bash
 .\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
