@@ -91,6 +91,9 @@ for message in consumer:
 3. Start the respective consumers to receive filtered messages.
 
 # Images
-
+![Alert](./images/Consumer%20for%20Alert%20Topic.png)
+![Logs](./images/Consumer%20for%20Logs%20Topic.png)
+![Metric](./images/Consumer%20for%20Metrics%20Topic.png)
+![Producer Success](./images/Producer%20Success.png)
 ## Conclusion
 This setup demonstrates how to implement topic-based message filtering in Kafka. Consumers receive only messages relevant to their subscribed topics, ensuring efficient message processing and prioritization.
