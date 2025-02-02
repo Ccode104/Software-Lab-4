@@ -89,12 +89,13 @@ python producer.py
 
 ---
 
-### **5. Expected Output**
+### **5.Images**
+
+#### **Producer Input**
+![Received the message : Hello World!](./images/Producer%20Input.png)
 
 #### **Consumer Output:**
-```
-Received: Hello, World!
-```
+![Received the message : Hello World!](./images/Consumer%20Output.png)
 
 ---
 
