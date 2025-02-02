@@ -7,7 +7,7 @@ Here, we create a topic, have 1 producer and 2 consumers.
 ## Tasks
 
 ### 1. Create a Kafka Topic
-- Set up Kafka on your system.(Done in assignment 1). 
+- Set up Kafka on your system.(Start Zookeeper and Kafka broker - Refer Assignment 1). 
 - Create a topic named `updates`.
   ```sh
   .\bin\windows\kafka-topics.bat --create --topic updates --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
