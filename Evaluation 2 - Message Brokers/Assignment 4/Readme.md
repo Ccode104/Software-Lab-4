@@ -12,7 +12,7 @@ These were done in the Assignment 1 and 2.
 
 ## Step 1: Create Kafka Topics
 
-# Create topics
+### Create topics
 ```
 .\bin\windows\kafka-topics.bat --create --topic alerts --bootstrap-server localhost:9092
 .\bin\windows\kafka-topics.bat --create --topic logs --bootstrap-server localhost:9092
@@ -89,7 +89,7 @@ for message in consumer:
 2. Run the producer script to send messages.
 3. Start the respective consumers to receive filtered messages.
 
-# Images
+## Images
 
 ## Conclusion
 This setup demonstrates how to implement topic-based message filtering in Kafka. Consumers receive only messages relevant to their subscribed topics, ensuring efficient message processing and prioritization.
