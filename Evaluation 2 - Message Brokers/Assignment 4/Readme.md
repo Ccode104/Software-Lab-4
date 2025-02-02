@@ -15,6 +15,7 @@ These were done in the Assignment 1 and 2.
 Set up kafka - Refer to Assignment 1
 
 # Create topics
+```
 .\bin\windows\kafka-topics.bat --create --topic alerts --bootstrap-server localhost:9092
 .\bin\windows\kafka-topics.bat --create --topic logs --bootstrap-server localhost:9092
 .\bin\windows\kafka-topics.bat --create --topic metrics --bootstrap-server localhost:9092
