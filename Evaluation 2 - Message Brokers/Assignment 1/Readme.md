@@ -28,12 +28,12 @@ Here are some important edits to be made (for Windows) :
 
 #### **Create Kafka Topic**
 ```bash
-.\bin\kafka-topics.bat --create --topic hello_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+.\bin\windows\kafka-topics.bat --create --topic hello_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
 
 #### **Verify the Topic**
 ```bash
-.\bin\kafka-topics.bat --list --bootstrap-server localhost:9092
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
 ```
 
 ---
