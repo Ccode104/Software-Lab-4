@@ -2,14 +2,15 @@
 
 ## Objective
 Learn how to implement a publish-subscribe pattern using Apache Kafka.
+Here, we create a topic, have 1 producer and 2 consumers.
 
 ## Tasks
 
 ### 1. Create a Kafka Topic
-- Set up Kafka on your system or use a cloud-based Kafka service.
+- Set up Kafka on your system.(Done in assignment 1). 
 - Create a topic named `updates`.
   ```sh
-  kafka-topics.sh --create --topic updates --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+  .\bin\windows\kafka-topics.bat --create --topic updates --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
   ```
 
 ### 2. Write a Producer

@@ -6,26 +6,37 @@ Understand the basics of message brokers and set up Kafka.
 ## Tasks
 
 ### **1. Install Kafka on Your Local Machine**
-Ensure Kafka is installed and running. If not, download and install Apache Kafka from [here](https://kafka.apache.org/downloads).
+Download and install Apache Kafka from [here](https://kafka.apache.org/downloads).
+Extract the zip file.
+
+Here are some important edits to be made (for Windows) :
+<ol>
+    <li>Go to the config folder in extracted folder</li>
+    <li>Edit the server.properties file: put the path of your extracted folder in the logs.dir = \tmp\kafka-logs</li>
+    <li>Do the same for zookeeper.properties for data.dir = \tmp\zookeeper-data</li>
+</ol>
+
+Visit [Apache Kafka Quickstart](https://kafka.apache.org/quickstart).<br />
+Note : It is given for Linux based systems. For windows, instead of .sh, we access .bat files.
 
 #### **Start Zookeeper**
 ```bash
-bin/zookeeper-server-start.sh config/zookeeper.properties
+.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 ```
 
 #### **Start Kafka Broker**
 ```bash
-bin/kafka-server-start.sh config/server.properties
+.\bin\windows\kafka-server-start.bat config\server.properties
 ```
 
 #### **Create Kafka Topic**
 ```bash
-bin/kafka-topics.sh --create --topic hello_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+.\bin\windows\kafka-topics.bat --create --topic hello_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
 
 #### **Verify the Topic**
 ```bash
-bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
 ```
 
 ---
@@ -99,5 +110,4 @@ python producer.py
 
 ---
 
-Now your Kafka producer and consumer are fully functional! 🚀
 
