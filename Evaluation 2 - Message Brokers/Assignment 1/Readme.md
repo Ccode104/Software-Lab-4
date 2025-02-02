@@ -7,6 +7,14 @@ Understand the basics of message brokers and set up Kafka.
 
 ### **1. Install Kafka on Your Local Machine**
 Download and install Apache Kafka from [here](https://kafka.apache.org/downloads).
+Extract the zip file.
+
+Here are some important edits to be made (for Windows) :
+<ol>
+    <li>Go to the config folder in extracted folder</li>
+    <li>Edit the server.properties file: put the path of your extracted folder in the logs.dir = \tmp\kafka-logs</li>
+    <li>Do the same for zookeeper.properties for data.dir = \tmp\zookeeper-data</li>
+</ol>
 
 #### **Start Zookeeper**
 ```bash
