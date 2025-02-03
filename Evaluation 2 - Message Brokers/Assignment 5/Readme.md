@@ -73,13 +73,10 @@ while True:
     print(f"Received message: {msg.value().decode('utf-8')}")
 ```
 
-### Step 5: Handle Dynamic Chat Room Join/Leave
-- Maintain a registry of active users per chat room.
-- Allow users to subscribe/unsubscribe dynamically using Kafka's group membership.
-
-### Step 6: Use Partitioning for Scalability
-- Assign each chat room to different Kafka partitions.
-- Improve parallel processing by having multiple consumers handle different partitions.
+## Images
+![Producer](./images/Producer.png)
+![Consumer 1](./images/Consumer%201.png)
+![Consumer 2](./images/Consumer%202.png)
 
 ## Conclusion
 By leveraging Kafka's real-time messaging capabilities, we built a scalable chat system where users can send and receive messages dynamically. Further improvements can include WebSocket integration for frontend applications.
